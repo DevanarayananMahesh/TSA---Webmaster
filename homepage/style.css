@@ -1,0 +1,101 @@
+:root {
+    --primary-red: #e93e3e;
+    --dark-primary-red: #7a1e1e;
+    --secondary-blue: #5DD2D5;
+}
+
+/* rgb(70, 103, 76) LOGO COLOR */
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: calc(100% - 4rem);
+    height: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+}
+
+nav .nav-logo {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+nav .nav-logo img {
+    width: auto;
+    height: 3rem;
+}
+
+nav .nav-logo h1 {
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+    color: rgb(31, 34, 31);
+}
+
+nav .nav-actions {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    gap: 1rem;
+}
+
+nav .nav-actions .nav-join-btn {
+    width: 10rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; 
+    padding: .75rem;
+    border: none;
+    background-color: var(--primary-red);
+    color: white;
+    font-family: sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    transition: .3s ease all;
+}
+
+nav .nav-actions .nav-join-btn:hover {
+    background-color: var(--dark-primary-red);
+    width: 10.5rem;
+}
+
+nav .nav-actions .nav-action-btn {
+    width: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; 
+    padding: .75rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: rgb(38, 38, 38);
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+    transition: .3s ease all;
+
+}
+nav .nav-actions .nav-action-btn:hover {
+    border: 1px solid var(--primary-red);
+    color: var(--primary-red);
+}
