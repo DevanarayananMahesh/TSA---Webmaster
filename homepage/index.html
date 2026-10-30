@@ -2,40 +2,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Academy - Demistify what AI truly is</title>
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
     <nav>
         <div class="nav-logo">
-            <img src="../images/logo/logo-full-width.png" alt="Navbar-logo"> 
+            <img src="../images/logo/nav-logo-complete.png" alt="nav-logo">
         </div>
-        <div class="nav-actions">
-            <div style="gap: 1rem;">
-                <button class="nav-action-btn">Our Impact</button>
-                <button class="nav-action-btn">Modules</button>
-                <button class="nav-action-btn" style="width: fit-content;">Reach Us</button>
+        <div class="nav-links">
+            <button class="secondary_action_contact">Who we are</button>
+            <button class="secondary_action">Our Mission</button>
+            <button class="secondary_action_contact">Contact us</button>
+            <button class="secondary_action">Explore</button>
+        </div>
+        <div class="nav-cta">
+            <button class="primary_action">Get Started <span>↗</span></button>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section id="hero">
+            <img src="../images/hero-images/ChatGPT-Logo.png" class="floating-image image-1" alt="">
+            <img src="../images/hero-images/Claude-Logo.png" class="floating-image image-2" alt="">
+            <img src="" class="floating-image image-3" alt="">
+            <img src="../images/hero-images/NVIDIA_logo.svg.webp" class="floating-image image-4" alt="">
+            <img src="../images/hero-images/" class="floating-image image-5" alt="">
+            <img src="../images/hero-images" class="floating-image image-6" alt="">
+            <div class="hero-text">
+                <h1>Chuds, as time passes, becomes even worse Chuds.</h1>
+                <div class="hero-btns" style="width: 100%; display:flex; align-items: center; justify-content: center;gap: 1rem;">
+                    <button class="hero-cta">Start your journey <span>↗</span></button>
+                    <button class="hero-link">View Modules</button>
+                </div>
             </div>
-            <button class="nav-join-btn">Get Started <span>↗</span></button>
-        </div>
-    </nav> 
+        </section>
 
-    <header class="hero">
-        <div class="hero-textbox">
-            <h1>From <span>Concept</span></h1>
-            <h1>To <span>Code</span></h1>
-            <p>Understand everything there is about AI from Deeplearning and Algorithms to Ethics and more, all while learning in a comprehensive and fun environment.</p>
-            <button class="hero-join-btn">Start your Journey <span style="color: white;">↗</span></button>
-        </div>
-        <div class="hero-img">
+    </main>
 
-        </div>
-    </header>
+
 
     <script src="script.js"></script>
 </body>
